@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="icon" type="image/png" href="img/GitHub-Mark.png">
+    <title>Sign in to · GitHub</title>
+</head>
+<body>
+    <!--Container-->
+    <div class="flex flex-col items-center justify-center min-h-full px-12 py-8">
+        <!--Main Container-->
+        <div class="flex flex-col items-center justify-center min-w-xs">
+            <!--Logo Section-->
+            <div class="flex flex-col items-center justify-between">
+                <img src="img/GitHub-Mark.png" width="65">
+                <h2 class="m-5 font-light text-2xl">Sign in to GitHub</h2>
+            </div>
+            <!--Card Container-->
+            <div class="flex flex-col justify-between border border-gray-300 bg-slate-100 rounded-lg p-3">
+                <h3 class="m-1 p-2 text-sm text-gray-700">Username or email address</h3>
+                <input type="text" class="m-2 p-2 w-64 h-8 border border-gray-300 outline-blue-600 rounded-lg">
+                <!--Password Section-->
+                <div class="flex flex-col justify-between items-center">
+                    <div class="relative flex flex-row justify-between space-x-24 space-y-0">
+                        <h3 class="text-sm text-gray-700">Password</h3>
+                        <h2 class="text-xs text-blue-700">Forgot password?</h2>
+                    </div>
+                    <!--Input & Button Section-->
+                        <div class="flex flex-col items-center justify-between">
+                        <input type="text" class="m-2 p-2 w-64 h-8 border border-gray-300 outline-blue-600 rounded-lg">
+                        <button class="m-2 rounded-lg w-64 h-8 bg-green-600 hover:bg-green-700 text-white text-sm font-semibold">Sign in</button>
+                        </div>
+                </div>
+            </div>
+            <!--Create Account Section-->
+            <div class="flex items-center m-7 p-6 w-11/12 h-6 border border-gray-300 rounded-lg">
+                <h3 class="text-sm">New to GitHub? <span class="text-blue-700">Create an account.</span></h3>
+            </div>
+            <!--Terms Section-->
+            <div class="flex flex-row items-center justify-between mt-8 space-x-3">
+                <a href="#" class="text-blue-700 text-xs hover:underline">Terms</a>
+                <a href="#" class="text-blue-700 text-xs hover:underline">Privacy</a>
+                <a href="#" class="text-blue-700 text-xs hover:underline">Security</a>
+                <a href="#" class="text-slate-700 text-xs hover:underline hover:text-blue-700 hover:underline-blue-700">Contact GitHub</a>
+            </div>
+                
+        </div>
+    </div>
+</body>
+</html>
